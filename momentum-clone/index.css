@@ -2,7 +2,10 @@ body {
   background-color: #34495e;
 }
 body {
-  color: #34495e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .clicked {
   color: red;
@@ -14,7 +17,9 @@ body {
 }
 
 .showing {
-  display: block;
+  display: flex;
+  font-size: 30px;
+  margin-top: -10px;
 }
 .bgImage {
   position: absolute;
@@ -32,4 +37,25 @@ body {
   to {
     opacity: 1;
   }
+}
+.js-clock {
+  margin-top: 70px;
+  font-size: 60px;
+}
+.text-in {
+  border: none;
+  border-radius: 10px;
+}
+.text-in:focus {
+  border-radius: 10px;
+  border: none;
+}
+.js-toDoList {
+  font-size: 20px;
+}
+.js-weather {
+  /* margin-top: -500px;
+  margin-right: -1200px; */
+  margin-right: -1200px;
+  position: fixed;
 }
